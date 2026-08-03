@@ -7,9 +7,9 @@ let package = Package(
     products: [
         .library(
             name: "MRZ",
-            targets: ["MRZStage"]),
+            targets: ["MRZ"]),
     ],
     targets: [
-        .binaryTarget(name: "MRZStage", url: "https://pods.regulaforensics.com/Stage/MRZStage/9.7.19623/DocumentReaderCoreStage_mrz_9.7.19623.zip", checksum: "6f749563a016102e0f5fa1a5094830d4283c882c7ff3631a01bbc9c940446875"),
+        .binaryTarget(name: "MRZ", url: "https://pods.regulaforensics.com/MRZ/9.7.19645/DocumentReaderCore_mrz_9.7.19645.zip", checksum: "58f7296a24377176026da71ff5868bbfec94dd2433f05cb780ef4c7ce5503e32"),
     ]
 )
